@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css" />
+    <title>Online Piano</title>
+</head>
+<h1>Online Keyboard</h1>
+<h2>This is an online keyboard for testing different waveforms!</h2>
+<select id="instrumentSelect">
+    <option value="sine">Sine Wave</option>
+    <option value="piano">Piano</option>
+</select>
+<div id="keyboard">
+    <button class="whitekey" style="position:absolute; left: 0;" data-pitch="261.63"></button>
+    <button class="blackkey" style="position:absolute; left:37.5px" data-pitch="277.18"></button>
+    <button class="whitekey" style="position:absolute; left: 50px;" data-pitch="293.66"></button>
+    <button class="blackkey" style="position:absolute; left:87.5px" data-pitch="311.13"></button>
+    <button class="whitekey" style="position:absolute; left: 100px;" data-pitch="329.63"></button>
+    <button class="whitekey" style="position:absolute; left: 150px;" data-pitch="349.23"></button>
+    <button class="blackkey" style="position:absolute; left:187.5px" data-pitch="369.99"></button>
+    <button class="whitekey" style="position:absolute; left: 200px;" data-pitch="392.00"></button>
+    <button class="blackkey" style="position:absolute; left:237.5px" data-pitch="415.30"></button>
+    <button class="whitekey" style="position:absolute; left: 250px;" data-pitch="440.00"></button>
+    <button class="blackkey" style="position:absolute; left:287.5px" data-pitch="466.16"></button>
+    <button class="whitekey" style="position:absolute; left: 300px;" data-pitch="493.88"></button>
+    <button class="whitekey" style="position:absolute; left: 350px;" data-pitch="523.25"></button>
+</div>
+<!--Piano wave table-->
+<script src="wavetables/piano.js"></script>
+<script src="script.js"></script>
+
+<body>
+
+</body>
+
+</html>
