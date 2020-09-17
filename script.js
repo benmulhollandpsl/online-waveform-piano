@@ -40,8 +40,12 @@ select.addEventListener('input', function () {
 const keys = document.querySelectorAll('button');
 
 for (key of keys) {
-    key.addEventListener("click", function () {
+    key.addEventListener("click" || "keydown", function () {
         console.log(this.dataset.pitch);
         playNote(Number(this.dataset.pitch), instrument);
     }, false);
 }
+
+ 
+       
+      

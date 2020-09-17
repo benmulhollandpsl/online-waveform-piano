@@ -1,14 +1,15 @@
 #keyboard {
-    position: relative;
+    position: absolute;
+  
 }
 
 .whitekey {
     outline: none;
     border-bottom-left-radius: 7px;
     border-bottom-right-radius: 7px;
-    background-color: rgb(240, 240, 240);
+    background-color: rgb(0, 255, 255);
     border: solid black 2px;
-    box-shadow: 5px 5px white inset;
+    box-shadow: 5px 5px 5px 5px rgba(255, 255, 0, .5) inset;
     width: 50px;
     height: 250px;
     z-index: 0;
@@ -17,8 +18,8 @@
 .blackkey {
     outline: none;
     border-bottom: 20px solid gray;
-    background-color: black;
-    box-shadow: 5px 5px 5px 5px rgba(150, 150, 150, .5);
+    background-color:rgb(255,0,255);
+    box-shadow: 5px 5px 5px 5px rgba(255, 0, 255, .5);
     height: 175px;
     width: 25px;
     z-index: 1;
@@ -33,3 +34,10 @@
     box-shadow: none;
     border-bottom: 10px solid gray;
 }
+
+
+
+/* .body {
+
+background-image: radial-gradient(red, green, blue);
+} */
